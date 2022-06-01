@@ -1,0 +1,538 @@
+*{
+    margin: 2px;
+    padding: 0px;
+}
+body{
+    /* background-color: antiquewhite; */
+    background-image: linear-gradient(to top, #e2e5e1, #e7eceb, #eff2f3, #f7f8f9, #ffffff);}
+/* INICIO CONTENEDORES GRID */
+.contenedorMainIndex{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr;
+    grid-template-areas: 
+    "header"
+    "imgInicio"
+    "sectionAside"
+    "footer"
+    "textofooter";
+}
+.contenedorMainAero{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7fr;
+    grid-template-areas: 
+    "header"
+    "cajaEins"
+    "infoAero"
+    "aeroGaleriaContenedorA"
+    "aeroProgresoContenedorTxt"
+    "footer"
+    "textofooter";
+}
+.contenedorMainSeri{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+    grid-template-areas: 
+    "header"
+    "fila1"
+    "fila2"
+    "rowImagenes"
+    "footer"
+    "textofooter";
+}
+.contenedorMainGraf{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7fr;
+    grid-template-areas: 
+    "header"
+    "graficaMuestraContenedor"
+    "graficaGaleriaTxt"
+    "graficaColoresTxt"
+    "muestrarioVinilo"
+    "footer"
+    "textofooter";
+}
+.contenedorMainContact{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8fr;
+    grid-template-areas: 
+    "header"
+    "ubicacionMapa"
+    "contactoFormText"
+    "formContenedor"
+    "contactoForm3"
+    "botonEnvio"
+    "footer"
+    "textofooter";
+}
+/* FIN CONTENEDORES GRID */
+/* -----animacion logo--------- */
+.logo {
+	-webkit-animation: logo 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.4s both;
+	        animation: logo 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.4s both;
+}
+@-webkit-keyframes logo {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes logo {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+/* ---------------header general------------*/
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    z-index: 1; /* logo sobre imagen */
+    grid-template-areas: 
+    "logo navMenu";
+}
+.logo{
+    grid-area: logo;
+}
+.navMenu{
+    display: flex;
+    justify-content: right;
+    grid-area: navMenu;
+}
+.navMenu ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+.navContenedor{
+    display: flex;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navContenedor li a{
+    text-decoration: none;
+    color: black;
+}
+/* imagen central */
+.imgInicio{
+    grid-area: imgInicio;
+    margin-top: -30px;
+}
+.imgInicio img{
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+/* seccion aside */
+.sectionAside{
+    text-align: center;
+    grid-area: sectionAside;
+}
+.aside1{
+    width: 80%;
+    color: rgb(97, 97, 97);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+h4{
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.aside1 p{
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.aside2 p{
+    width: 80%;
+    color: rgb(97, 97, 97);
+    background-color: rgb(221, 221, 221);
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* -------------pie pagina general--------- */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    grid-area: footer;
+}
+.footericonos{
+    width: auto;
+    height: auto;
+    border: 1px solid rgba(30, 102, 136, 0.355);
+    padding: 5px;
+    border-radius: 10px;
+}
+.footericonos img{
+    width: 35px;
+    height: auto;
+    margin: 4px 10px 0px 10px;
+}
+.textofooter{
+    background-color: rgb(215, 215, 215);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(97, 97, 97);
+    grid-area: textofooter;
+}
+/* ------ btns ------ */
+.btnInicio:hover{
+    color:coral
+}
+.btnAero:hover{
+    color:coral
+}
+.btnSeri:hover{
+    color:coral
+}
+.btnGraf:hover{
+    color:coral
+}
+.btnCont:hover{
+    color:coral
+}
+.btnFace:hover{
+    opacity: 70%;
+}
+.btnInsta:hover{
+    opacity: 70%;
+}
+.btnLink:hover{
+    opacity: 70%;
+}
+.btnTweet:hover{
+    opacity: 70%;
+}
+/* ------------seccion SERIGRAFIA HTML------------- */
+.fila1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: rgb(212, 207, 207, 0.2);
+    margin-top: -30px;
+    grid-template-areas: "fila1Texto fila1Img";
+    justify-items: end;
+    grid-area: fila1;
+}
+.fila1Texto{
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.5rem;
+    color: dimgrey;
+    grid-area: fila1Texto; /* aplicado ubi texto izq */
+}
+.fila1Img{
+    grid-area: fila1Img; /* aplicado ubi imagen derecha */
+}
+.fila2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: rgb(193, 193, 193, 0.3);
+    grid-template-areas: "fila2Texto fila2Img";
+    grid-area: fila2
+}
+.rowImagenes{
+    grid-area: rowImagenes;
+}
+.fila2Texto{
+    background-color: rgb(212, 207, 207, 0.2);
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.5rem;
+    color: dimgrey;
+    padding: 10px;
+    grid-area: fila2Texto;
+}
+.fila2Texto ul li{
+    list-style-type: none;
+}
+.fila2Img{
+    grid-area: fila2Img;
+}
+h4{
+    color: red;
+}
+/* --------- seccion AEROGRAFIA HTML -------- */
+.aeroGaleriaContenedorA{
+    grid-area: aeroGaleriaContenedorA;
+}
+.aeroProgresoContenedorTxt{
+    grid-area: aeroProgresoContenedorTxt;
+}
+.infoAero{
+    grid-area: infoAero;
+}
+.aeroProgresoContenedorTxt{
+    grid-area: aeroProgresoContenedorTxt;
+}
+.cajaEins{
+    background-color: black;
+    grid-area: cajaEins;
+}
+.infoAero{
+    display: flex;
+    justify-content: center;
+}
+.infoAero-int{
+    width: 800px;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.5rem;
+    color: dimgrey;
+}
+.aeroGaleriaTxt{
+    margin-top: 2.5rem;
+    background-color: black;
+    color:rgb(182, 182, 182);
+    padding: 5px 5px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.aeroGaleria{
+    display: flex;
+    width: 800px;
+    height: auto;
+}
+.aeroGaleriaContenedor{
+    text-align: center;
+    background-color: rgb(182, 182, 182);
+}
+.aeroProgesoTxt{
+    margin-top: 3rem;
+    background-color: black;
+    color:rgb(182, 182, 182);
+    padding: 5px 5px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.aeroProgreso{
+    display: flex;
+    width: 800px;
+    height: auto;
+}
+.aeroProgresoContenedor{
+    text-align: center;
+    background-color: rgb(182, 182, 182);
+}
+/* ---------------- seccion grafica ------------ */
+.contenedorMainGraf{
+    width: 100%;
+    height: auto;
+}
+.graficaMuestraContenedor{
+    text-align: center;
+    background-color: rgb(182, 182, 182);
+    grid-area: graficaMuestraContenedor;
+}
+.graficaGaleriaTxt{
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.5rem;
+    color: dimgrey;
+    grid-area: graficaGaleriaTxt;
+}
+.graficaColoresTxt{
+    margin-top: 2.5rem;
+    background-color: black;
+    color:rgb(182, 182, 182);
+    padding: 5px 5px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    grid-area: graficaColoresTxt;
+}
+.muestrarioVinilo{
+    text-align: center;
+    background-color: rgb(182, 182, 182);
+    grid-area: muestrarioVinilo;
+}
+.muestrarioVinilo img{
+    width: 100%;
+}
+/* ---------------- seccion contacto ------------ */
+.ubicacionMapa{
+    background-color: rgba(172, 202, 170, 0.8);
+    padding: 0.5rem;
+    /* filter: grayscale(100%); */
+    grid-area: ubicacionMapa;
+}
+.contactoFormText{
+    text-align: center;
+    margin-top: 2rem;
+    grid-area: contactoFormText;
+}
+.formContenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    grid-area: formContenedor;
+}
+.contactoForm3{
+    margin-top: 0.8rem;
+    text-align: center;
+    grid-area: contactoForm3;
+}
+.botonEnvio{
+    text-align: center;
+    grid-area: botonEnvio
+}
+/* ------------- mediaquery ------------- */
+@media (max-width: 320px){   
+    body{
+        background-image: linear-gradient(to bottom, #c7c7c7, #b9bbbc, #aaafaf, #9da3a0, #949690);
+    }
+    .header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+        align-items: center;
+        z-index: 1; /* logo sobre imagen */
+        grid-template-areas: 
+        "logo"
+        "navMenu";
+    }
+    .header{
+        text-align: center;
+    }
+    .navMenu{
+        margin: 0 auto;
+    }
+    .navContenedor{
+        margin-top: -25px;
+        flex-direction: column;
+        line-height: 0.5rem;
+    }
+    .sectionAside{
+        width: 100%;
+        margin-top: -15px;
+    }
+    .imgInicio{
+        margin-top: 30px;
+    }
+    /* ----------media aerografia------------ */
+    .contenedorMainAero{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 7fr;
+        grid-template-areas: 
+        "header"
+        "cajaEins"
+        "infoAero"
+        "aeroGaleriaContenedorA"
+        "aeroProgresoContenedorTxt"
+        "footer"
+        "textofooter";
+    }
+    .navMenu{
+        margin-top: 10px;
+    }
+    .cajaEins img{
+        display: none;
+    }
+    .infoAero{
+        width: 320px;
+        height: auto;
+        margin: 0 auto;
+        grid-area: infoAero;
+    }
+    .aeroGaleriaContenedorA{
+        grid-area: aeroGaleriaContenedorA;
+        width: 300px;
+    }
+    .aeroGaleriaContenedor img{
+        width: 300px;
+        height: auto;
+    }
+    .aeroGaleriaTxt{
+        width: 100%;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .aeroProgresoContenedorTxt{
+        display: none;
+        grid-area: aeroProgresoContenedorTxt;
+    }
+/*     -----------media serigrafia------------*/
+    .fila1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        background-color: rgb(212, 207, 207, 0.2);
+        margin-top: 0px;
+        grid-template-areas:
+        "fila1Img" "fila1Texto";
+    }
+    .fila1Texto p{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .fila1Img img{
+        width: 100%;
+        height: auto;
+    }
+    .fila2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        align-items: center;
+        background-color: rgb(193, 193, 193, 0.3);
+        grid-template-areas: "fila2Texto" "fila2Img";
+        grid-area: fila2
+    }
+    .fila2Texto{
+        text-align: center;
+    }
+    .fila2Img img{
+        display: none;
+        /* width: 100%;
+        height: auto; */
+    }
+    .rowImagenes{
+        text-align: center;
+    }
+    /* ------ media grafica ------- */
+    .contenedorMainGraf{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 7fr;
+        grid-template-areas: 
+        "header"
+        "graficaMuestraContenedor"
+        "graficaGaleriaTxt"
+        "graficaColoresTxt"
+        "muestrarioVinilo"
+        "footer"
+        "textofooter";
+    }
+    .graficaMuestraContenedor img{
+        width: 300px;
+    }
+    .graficaColoresTxt{
+        width: 300px;
+    }
+    .muestrarioVinilo img{
+        width: 300px;
+    }
+}
