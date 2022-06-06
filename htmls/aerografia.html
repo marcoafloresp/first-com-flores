@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,29 +21,73 @@
 <body>
     <div class="contenedorMainAero">
  <!-- header general -->
-        <div class="header">
-            <div class="logo">
-                <img src="../img/logflores.png" alt="">
-            </div>
-            <div class="navMenu">
-                <ul class="navContenedor">
-                    <li><a class="btnInicio" href="../index.html">INICIO</a></li>
-                    <li><a class="btnAero" href="aerografia.html">AEROGRAFIA</a></li>
-                    <li><a class="btnSeri" href="../htmls/serigrafia.html">SERIGRAFIA</a></li>
-                    <li><a class="btnGraf" href="../htmls/grafica.html">GRAFICA</a></li>
-                    <li><a class="btnCont" href="../htmls/contacto.html">CONTACTO</a></li>
-                </ul>
-            </div>
+ <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid" style="background-color: #ebebeb, .5 ;">
+            <img src="/img/logflores.png" alt="logo" width="auto" height="auto">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">AEROGRAFIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/htmls/serigrafia.html">SERIGRAFIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/htmls/grafica.html">GRAFICA</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="/htmls/contacto.html">CONTACTO</a>
+                  </li>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+</div>
 <!-- imagen central -->
-            <div class="cajaEins"> <!-- cabecera aerografia mas-->
-                <img src="../img/aerogra/einstein.png" alt="foto albert">
-            </div>
+            <!-- <div class="cajaEins p-1">
+                <img src="../img/aerogra/einstein.png" alt="foto albert" class="img-fluid">
+            </div> -->
+            <Section class="row">
+              <div id="carouselExampleInterval" class="carousel slide w-75 mx-auto" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                      <img src="/img/aerogra/buho.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <img src="/img/aerogra/shade.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <img src="/img/aerogra/buho2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <img src="/img/aerogra/cala.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/aerogra/zombie.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+          </Section>
             <div class="infoAero">
                 <div class="infoAero-int">
-                    <p>La aerografía es una técnica artística que consiste en aplicar pintura haciendo uso
-                     de un aparato de aire comprimido conocido como aerógrafo.
-                     Este dispositivo se carga con pintura que luego el artista va difuminando sobre la superficie a pintar.
+                    <p>La aerografía es una técnica artística que requiere de un cierto grado de entrenamiento, para ello se utiliza una fuente de aíre a presión positiva, mangueras neumáticas, compresor, proporcionando aire por Efecto Venturi sobre un aerógrafo que mezcla aire y pigmento prediluido en un solvente que lo proyecta en forma atomizada.
+                      Debido a que es difícil realizar la técnica, que depende del artista y de la calidad de los equipos para lograrlo, la realización de la misma requiere una cierta preparación de los profesionales o estudiantes de arte. Los resultados son muy superiores a la aplicación con pincel o brocha y tienden a compensar la dificultad inicial.
+                      Para esta técnica, se utiliza un instrumento llamado aerógrafo, que se conecta a un compresor de aire y crea finos chorros de aire con pequeñas gotitas atomizadas de pigmento. Los estudiosos de esta técnica dicen que el arte de la aerografía apareció en los tiempos prehistóricos, cuando hombres lanzaban pigmentos en las cavernas a través de tubos procedentes de huesos.
                     </p>
                 </div>
             </div>
@@ -50,9 +96,9 @@
                     <p>La aerografia, un gran recurso artístico.</p>
                 </div>
                 <div class="aeroGaleriaContenedor"> <!-- seccion galeria -->
-                    <img src="../img/aerogra/doors.jpeg" alt="imagen doors">
-                    <img src="../img/aerogra/hawk.jpeg" alt="imagen aguila">
-                    <img src="../img/aerogra/marilyn.jpeg" alt="imagen monroe">
+                    <img src="../img/aerogra/doors.jpeg" alt="imagen doors" class="img-fluid p-2">
+                    <img src="../img/aerogra/hawk.jpeg" alt="imagen aguila" class="img-fluid p-2">
+                    <img src="../img/aerogra/marilyn.jpeg" alt="imagen monroe" class="img-fluid p-2">
                 </div>
             </div>
             <div class="aeroProgresoContenedorTxt">
@@ -60,8 +106,8 @@
                     <p>En progreso.</p>
                 </div>
                 <div class="aeroProgresoContenedor"> <!-- seccion progreso -->
-                    <img src="../img/aerogra/nicole.jpeg" alt="imagen nicole">
-                    <img src="../img/aerogra/mick.jpeg" alt="imagen jagger">
+                    <img src="../img/aerogra/nicole.jpeg" alt="imagen nicole" class="img-fluid p-2">
+                    <img src="../img/aerogra/mick.jpeg" alt="imagen jagger" class="img-fluid p-2">
                 </div>
             </div>
 <!--seccion pie pagina general-->
@@ -78,5 +124,7 @@
             <p>Copyrigth 2022</p>
         </div>
     </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,37 +21,52 @@
 <body>
     <div class="contenedorMainSeri">
  <!-- header general -->
-        <div class="header">
-            <div class="logo">
-                <img src="../img/logflores.png" alt="">
-            </div>
-            <div class="navMenu">
-                <ul class="navContenedor">
-                    <li><a class="btnInicio" href="../index.html">INICIO</a></li>
-                    <li><a class="btnAero" href="../htmls/aerografia.html">AEROGRAFIA</a></li>
-                    <li><a class="btnSeri" href="serigrafia.html">SERIGRAFIA</a></li>
-                    <li><a class="btnGraf" href="../htmls/grafica.html">GRAFICA</a></li>
-                    <li><a class="btnCont" href="../htmls/contacto.html">CONTACTO</a></li>
-                </ul>
-            </div>
+ <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid" style="background-color: #ebebeb, .5 ;">
+            <img src="/img/logflores.png" alt="logo" width="auto" height="auto">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/htmls/aerografia.html">AEROGRAFIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">SERIGRAFIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/htmls/grafica.html">GRAFICA</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="/htmls/contacto.html">CONTACTO</a>
+                  </li>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+</div>
 <!-- imagen central -->
     <section>
-        <div class="fila1">
-            <div class="fila1Texto">
+        <div class="row">
+            <div class="col-s-12 col-md-6 col-lg-6 p-3 fila2Texto">
                 <p>La serigrafía textil es una de las técnicas de personalización textil más demandadas por nuestros clientes y una de nuestras preferidas, ya que el resultado siempre es de alta calidad y los precios de esta producción son muy bajos.</p><p>Es un método perfecto para estampar todo tipo de diseños, ya sean imágenes, logos o textos.
                 Se trata de una técnica muy versátil que puede aplicarse sobre múltiples tejidos, como son el algodón, el poliéster o el nylon, entre otros.</p><p>Su versatilidad, sumada a lo asequible que resulta aun en grandes tiradas, hace de ella una opción perfecta para clubes deportivos, camisetas promocionales, merchandising o vestuario laboral.
                 </p>
             </div>
-            <div class="fila1Img">
-                <img src="../img/pasador.jpeg" alt="manigueta">
+            <div class="col-s-12 col-md-6 col-lg-6 p-1 d-flex align-items-center maniguetaSeri">
+                <img src="../img/pasador.jpeg" alt="manigueta" class="img-fluid">
             </div>
         </div>
     </section>
 <!-- segunda seccion -->
     <section>
-        <div class="fila2">
-            <div class="fila2Texto">
+        <div class="row">
+            <div class="col-s-12 col-md-6 col-lg-6 fila3Texto">
                 <ul>
                     <h4>DESARROLLO</h4>
                     <li>DISENO DE PRODUCTOS</li>
@@ -74,20 +91,40 @@
                     <li>PANTALONES, etc.</li>
                 </ul>
             </div>
-            <div class="fila2Img">
-                <img src="../img/guia-pantone.png" alt="pantonera">
+            <div class="col-s-12 col-md-6 col-lg-6 p-1 bg-light d-flex align-items-center pantoGuia">
+                <img src="../img/guia-pantone.png" alt="pantonera" class="img-fluid">
             </div>
         </div>
     </section>
 <!-- seccion imagenes row -->
-    <Section>
-        <div class="rowImagenes">
-            <img src="../img/serimg/cruch.jpeg" alt="foto1">
-            <img src="../img/serimg/jeremeryfish.jpeg" alt="foto2">
-            <img src="../img/serimg/LaurelHill.jpeg" alt="foto3">
-            <img src="../img/serimg/strava.jpeg" alt="foto4">
-            <img src="../img/serimg/tshirt.jpeg" alt="foto5">
-        </div>
+    <Section class="row">
+        <div id="carouselExampleInterval" class="carousel slide p-2 w-75 mx-auto" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/img/serimg/ser1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="/img/serimg/ser2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/serimg/ser3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/serimg/ser4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/serimg/ser5.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </Section>
 <!--seccion pie pagina general-->
         <div class="footer">
@@ -103,5 +140,7 @@
             <p>Copyrigth 2022</p>
         </div>
     </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
