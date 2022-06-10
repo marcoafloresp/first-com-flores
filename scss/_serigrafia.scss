@@ -1,0 +1,21 @@
+$text-font:'Roboto Condensed', sans-serif;
+$text-col:#696969;
+.fila2Texto{
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: $text-font;
+    line-height: 1.5rem;
+    color: $text-col;
+    align-content: center;
+    grid-area: fila2Texto;
+  }
+  .fila3Texto{
+    margin-top: 0.5rem;
+    font-family: $text-font;
+      ul{
+      margin: 10px;
+      padding: 0px;
+      li{
+        list-style-type: none;
+      }
+    }
+  }

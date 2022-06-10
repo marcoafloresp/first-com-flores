@@ -1,0 +1,38 @@
+$text-font:'Roboto Condensed', sans-serif;
+$text-col:#696969;
+.imgInicio{
+    margin-top: -20px;
+  }
+  .sectionAside{
+    text-align: center;
+    grid-area: sectionAside;
+    .aside1{
+      width: 80%;
+      color: rgb(97, 97, 97);
+      margin: 0 auto;
+      margin-top: 20px;
+      h4{
+        border-bottom: 1px solid gray;
+        font-size: 20px;
+        font-family: $text-font;
+      }
+      p{
+        font-size: 14px;
+        font-family: $text-font;
+      }
+    }
+    .aside2{
+      p{
+        width: 80%;
+        color: $text-col;
+        background-color: rgb(234, 188, 188);
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 14px;
+        font-weight: 200;
+        margin-top: 20px;
+        font-family: $text-font;
+      }
+  
+    }
+  }

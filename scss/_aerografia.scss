@@ -1,0 +1,54 @@
+$text-font:'Roboto Condensed', sans-serif;
+$text-col:#696969;
+.aeroGaleriaContenedorA{
+    grid-area: aeroGaleriaContenedorA;
+    .aeroGaleriaTxt{
+      margin-top: 2.5rem;
+      background-color: black;
+      color:rgb(182, 182, 182);
+      padding: 5px 5px;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+  }
+  .aeroProgresoContenedorTxt{
+    grid-area: aeroProgresoContenedorTxt;
+  }
+  .infoAero{
+    grid-area: infoAero;
+  }
+  .aeroProgresoContenedorTxt{
+    grid-area: aeroProgresoContenedorTxt;
+  }
+  .infoAero{
+    display: flex;
+    justify-content: center;
+    .infoAero-int{
+      width: 800px;
+      height: auto;
+      margin-top: 20px;
+      text-align: center;
+      align-content: center;
+      font-family: $text-font;
+      line-height: 1.5rem;
+      color: $text-col;
+    }
+  }
+  .aeroGaleriaContenedor{
+    text-align: center;
+    background-color: rgb(182, 182, 182);
+  }
+  .aeroProgresoContenedorTxt{
+    .aeroProgesoTxt{
+      margin-top: 3rem;
+      background-color: black;
+      color:rgb(182, 182, 182);
+      padding: 5px 5px;
+      text-align: center;
+      font-family: $text-font;
+    }
+  }
+  .aeroProgresoContenedor{
+    text-align: center;
+    background-color: rgb(182, 182, 182);
+  }

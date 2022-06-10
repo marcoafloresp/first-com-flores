@@ -1,0 +1,28 @@
+$text-font:'Roboto Condensed', sans-serif;
+$text-col:#696969;
+.ubicacionMapa{
+    background-color: rgba(172, 202, 170, 0.8);
+    padding: 0.5rem;
+    /* filter: grayscale(100%); */
+    grid-area: ubicacionMapa;
+  }
+  .contactoFormText{
+    text-align: center;
+    margin-top: 2rem;
+    grid-area: contactoFormText;
+  }
+  .formContenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    grid-area: formContenedor;
+  }
+  .contactoForm3{
+    margin-top: 0.8rem;
+    text-align: center;
+    grid-area: contactoForm3;
+  }
+  .botonEnvio{
+    text-align: center;
+    grid-area: botonEnvio
+  }

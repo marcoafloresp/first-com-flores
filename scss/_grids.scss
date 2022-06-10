@@ -1,0 +1,75 @@
+/* ---------------header general------------*/
+/* .header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    z-index: 1;
+    grid-template-areas: 
+    "logo navMenu";
+} */
+/* ------contenedores grid------- */
+.contenedorMainIndex{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr;
+    grid-template-areas: 
+    "header"
+    "imgInicio"
+    "sectionAside"
+    "footer"
+    "textofooter";
+}
+/* .contenedorMainAero{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7fr;
+    grid-template-areas: 
+    "header"
+    "cajaEins"
+    "infoAero"
+    "aeroGaleriaContenedorA"
+    "aeroProgresoContenedorTxt"
+    "footer"
+    "textofooter";
+} */
+/* .contenedorMainSeri{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+    grid-template-areas: 
+    "header"
+    "fila1"
+    "fila2"
+    "rowImagenes"
+    "footer"
+    "textofooter";
+} */
+.contenedorMainGraf{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7fr;
+    grid-template-areas: 
+    "header"
+    "graficaMuestraContenedor"
+    "graficaGaleriaTxt"
+    "graficaColoresTxt"
+    "muestrarioVinilo"
+    "footer"
+    "textofooter";
+}
+.contenedorMainContact{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8fr;
+    grid-template-areas: 
+    "header"
+    "ubicacionMapa"
+    "contactoFormText"
+    "formContenedor"
+    "contactoForm3"
+    "botonEnvio"
+    "footer"
+    "textofooter";
+}
+/* FIN CONTENEDORES GRID */

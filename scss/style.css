@@ -1,0 +1,813 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* -----animacion logo--------- */
+.logo {
+  -webkit-animation: logo 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s both;
+  animation: logo 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ------------animaciones index items---------- */
+.sobreNosotros {
+  -webkit-animation: logo 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s both;
+  animation: logo 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sobreNosotrosTxt {
+  -webkit-animation: logo 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) 0.7s both;
+  animation: logo 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) 0.7s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.aside2 {
+  -webkit-animation: logo 0.9s cubic-bezier(0.39, 0.575, 0.565, 1) 0.9s both;
+  animation: logo 0.9s cubic-bezier(0.39, 0.575, 0.565, 1) 0.9s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.footer {
+  -webkit-animation: logo 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 1.4s both;
+  animation: logo 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) 1.4s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.textofooter {
+  -webkit-animation: logo 1.7s cubic-bezier(0.39, 0.575, 0.565, 1) 1.7s both;
+  animation: logo 1.7s cubic-bezier(0.39, 0.575, 0.565, 1) 1.7s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*  ------------animcaion aerografia------------ */
+.infoAero {
+  -webkit-animation: logo 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s both;
+  animation: logo 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ----------animaciones serigrafia---------- */
+.fila2Texto {
+  -webkit-animation: logo 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  animation: logo 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.maniguetaSeri {
+  -webkit-animation: logo 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s both;
+  animation: logo 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fila3Texto {
+  -webkit-animation: logo 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.6s both;
+  animation: logo 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.6s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.pantoGuia {
+  -webkit-animation: logo 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 0.8s both;
+  animation: logo 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 0.8s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#carouselExampleInterval {
+  -webkit-animation: logo 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.1s both;
+  animation: logo 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.1s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*  ----------animacion grafica----------- */
+.ovalo1 {
+  -webkit-animation: slide-right 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-right 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+.ovalo2 {
+  -webkit-animation: slide-right 1.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-right 1.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+.ovalo3 {
+  -webkit-animation: slide-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+.graficaGaleriaTxt {
+  -webkit-animation: logo 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 0.8s both;
+  animation: logo 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 0.8s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.graficaColoresTxt {
+  -webkit-animation: logo 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.1s both;
+  animation: logo 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.1s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.muestrarioVinilo {
+  -webkit-animation: logo 1.3s cubic-bezier(0.39, 0.575, 0.565, 1) 1.3s both;
+  animation: logo 1.3s cubic-bezier(0.39, 0.575, 0.565, 1) 1.3s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*   ----------animacion contacto---------- */
+.ubicacionMapa {
+  -webkit-animation: logo 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s both;
+  animation: logo 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.contactoFormText {
+  -webkit-animation: logo 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.6s both;
+  animation: logo 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.6s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.formContenedor {
+  -webkit-animation: logo 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 0.8s both;
+  animation: logo 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) 0.8s both;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ---------------header general------------*/
+/* .header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    z-index: 1;
+    grid-template-areas: 
+    "logo navMenu";
+} */
+/* ------contenedores grid------- */
+.contenedorMainIndex {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 5fr;
+      grid-template-rows: 5fr;
+      grid-template-areas: "header" "imgInicio" "sectionAside" "footer" "textofooter";
+}
+
+/* .contenedorMainAero{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7fr;
+    grid-template-areas: 
+    "header"
+    "cajaEins"
+    "infoAero"
+    "aeroGaleriaContenedorA"
+    "aeroProgresoContenedorTxt"
+    "footer"
+    "textofooter";
+} */
+/* .contenedorMainSeri{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+    grid-template-areas: 
+    "header"
+    "fila1"
+    "fila2"
+    "rowImagenes"
+    "footer"
+    "textofooter";
+} */
+.contenedorMainGraf {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 7fr;
+      grid-template-rows: 7fr;
+      grid-template-areas: "header" "graficaMuestraContenedor" "graficaGaleriaTxt" "graficaColoresTxt" "muestrarioVinilo" "footer" "textofooter";
+}
+
+.contenedorMainContact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 8fr;
+      grid-template-rows: 8fr;
+      grid-template-areas: "header" "ubicacionMapa" "contactoFormText" "formContenedor" "contactoForm3" "botonEnvio" "footer" "textofooter";
+}
+
+/* FIN CONTENEDORES GRID */
+/* ------background animacion general------ */
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.bg {
+  -webkit-animation: slide 3s ease-in-out infinite alternate;
+          animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, hwb(0 87% 13%) 50%, #bdbdbd 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: .5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.bg3 {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
+  100% {
+    -webkit-transform: translateX(25%);
+            transform: translateX(25%);
+  }
+}
+
+@keyframes slide {
+  0% {
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
+  100% {
+    -webkit-transform: translateX(25%);
+            transform: translateX(25%);
+  }
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.navMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  grid-area: navMenu;
+}
+
+.navMenu ul li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.navContenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navContenedor li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ----------seccion index----------- */
+.imgInicio {
+  margin-top: -20px;
+}
+
+.sectionAside {
+  text-align: center;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: sectionAside;
+}
+
+.sectionAside .aside1 {
+  width: 80%;
+  color: #616161;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.sectionAside .aside1 h4 {
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sectionAside .aside1 p {
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sectionAside .aside2 p {
+  width: 80%;
+  color: #2d2d2d;
+  background-color: #eabcbc;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* -------------pie pagina general--------- */
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
+
+.footer .footericonos {
+  width: auto;
+  height: auto;
+  border: 1px solid rgba(30, 102, 136, 0.355);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.footer .footericonos img {
+  width: 35px;
+  height: auto;
+  margin: 4px 10px 0px 10px;
+}
+
+.textofooter {
+  background-color: #d7d7d7;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #616161;
+  -ms-grid-row: 8;
+  -ms-grid-column: 1;
+  grid-area: textofooter;
+}
+
+/* --------- seccion AEROGRAFIA HTML -------- */
+.aeroGaleriaContenedorA {
+  grid-area: aeroGaleriaContenedorA;
+}
+
+.aeroGaleriaContenedorA .aeroGaleriaTxt {
+  margin-top: 2.5rem;
+  background-color: black;
+  color: #b6b6b6;
+  padding: 5px 5px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.aeroProgresoContenedorTxt {
+  grid-area: aeroProgresoContenedorTxt;
+}
+
+.infoAero {
+  grid-area: infoAero;
+}
+
+.aeroProgresoContenedorTxt {
+  grid-area: aeroProgresoContenedorTxt;
+}
+
+.cajaEins {
+  grid-area: cajaEins;
+}
+
+.infoAero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.infoAero .infoAero-int {
+  width: 800px;
+  height: auto;
+  margin-top: 20px;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.5rem;
+  color: dimgrey;
+}
+
+.aeroGaleriaContenedor {
+  text-align: center;
+  background-color: #b6b6b6;
+}
+
+.aeroProgresoContenedorTxt .aeroProgesoTxt {
+  margin-top: 3rem;
+  background-color: black;
+  color: #b6b6b6;
+  padding: 5px 5px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.aeroProgresoContenedor {
+  text-align: center;
+  background-color: #b6b6b6;
+}
+
+/* -------seccion SERIGRAFIA HTML---------- */
+/*# sourceMappingURL=style.css.map */

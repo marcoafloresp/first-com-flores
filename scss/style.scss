@@ -1,0 +1,62 @@
+@import "animaciones";
+@import "grids";
+@import "mediaquery";
+@import "index";
+@import "aerografia";
+@import "serigrafia";
+@import "grafica";
+@import "contacto";
+$text-font:'Roboto Condensed', sans-serif;
+$text-col:#696969;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav-item{
+  a{
+    color:rgb(124, 124, 124);
+    &:hover{
+      color: #363636;
+    }
+  }
+}
+/* ------- footer general ------- */
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  grid-area: footer;
+  .footericonos{
+    width: auto;
+    height: auto;
+    border: 1px solid rgba(30, 102, 136, 0.355);
+    padding: 5px;
+    border-radius: 10px;
+    img{
+      width: 35px;
+      height: auto;
+      margin: 4px 10px 0px 10px;
+    }
+  }
+}
+.textofooter{
+  background-color: rgb(215, 215, 215);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(97, 97, 97);
+  grid-area: textofooter;
+}
+.btnFace:hover{
+  opacity: 70%;
+}
+.btnInsta:hover{
+  opacity: 70%;
+}
+.btnLink:hover{
+  opacity: 70%;
+}
+.btnTweet:hover{
+  opacity: 70%;
+}

@@ -1,0 +1,32 @@
+$text-font:'Roboto Condensed', sans-serif;
+$text-col:#696969;
+.graficaMuestraContenedor{
+    text-align: center;
+    grid-area: graficaMuestraContenedor;
+  }
+  .graficaGaleriaTxt{
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+    font-family: $text-font;
+    line-height: 1.5rem;
+    color: $text-col;
+    grid-area: graficaGaleriaTxt;
+  }
+  .graficaColoresTxt{
+    margin-top: 2.5rem;
+    background-color: black;
+    color:rgb(182, 182, 182);
+    padding: 5px 5px;
+    text-align: center;
+    font-family: $text-font;
+    grid-area: graficaColoresTxt;
+  }
+  .muestrarioVinilo{
+    text-align: center;
+    background-color: rgb(182, 182, 182);
+    grid-area: muestrarioVinilo;
+    img{
+      width: 100%;
+    }
+  }

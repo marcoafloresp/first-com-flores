@@ -1,0 +1,134 @@
+@media (max-width: 320px){   
+    body{
+        background-image: linear-gradient(to bottom, #c7c7c7, #b9bbbc, #aaafaf, #9da3a0, #949690);
+    }
+    .header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+        align-items: center;
+        z-index: 1; /* logo sobre imagen */
+        grid-template-areas: 
+        "logo"
+        "navMenu";
+    }
+    .header{
+        text-align: center;
+    }
+    .navMenu{
+        margin: 0 auto;
+    }
+    .navContenedor{
+        margin-top: -25px;
+        flex-direction: column;
+        line-height: 0.5rem;
+    }
+    .sectionAside{
+        width: 100%;
+        margin-top: -15px;
+    }
+    .imgInicio{
+        margin-top: 30px;
+    }
+    /* ----------media aerografia------------ */
+    .contenedorMainAero{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 7fr;
+        grid-template-areas: 
+        "header"
+        "cajaEins"
+        "infoAero"
+        "aeroGaleriaContenedorA"
+        "aeroProgresoContenedorTxt"
+        "footer"
+        "textofooter";
+    }
+    .navMenu{
+        margin-top: 10px;
+    }
+    .cajaEins img{
+        display: none;
+    }
+    .infoAero{
+        width: 320px;
+        height: auto;
+        margin: 0 auto;
+        grid-area: infoAero;
+    }
+    .aeroGaleriaContenedorA{
+        grid-area: aeroGaleriaContenedorA;
+        width: 300px;
+    }
+    .aeroGaleriaContenedor img{
+        width: 300px;
+        height: auto;
+    }
+    .aeroGaleriaTxt{
+        width: 100%;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .aeroProgresoContenedorTxt{
+        display: none;
+        grid-area: aeroProgresoContenedorTxt;
+    }
+/*     -----------media serigrafia------------*/
+    .fila1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        margin-top: 0px;
+        grid-template-areas:
+        "fila1Img" "fila1Texto";
+    }
+    .fila1Texto p{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .fila1Img img{
+        width: 100%;
+        height: auto;
+    }
+    .fila2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        align-items: center;
+        grid-template-areas: "fila2Texto" "fila2Img";
+        grid-area: fila2
+    }
+    .fila2Texto{
+        text-align: center;
+    }
+    .fila2Img img{
+        display: none;
+    }
+    .rowImagenes{
+        text-align: center;
+    }
+    /* ------ media grafica ------- */
+    .contenedorMainGraf{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 7fr;
+        grid-template-areas: 
+        "header"
+        "graficaMuestraContenedor"
+        "graficaGaleriaTxt"
+        "graficaColoresTxt"
+        "muestrarioVinilo"
+        "footer"
+        "textofooter";
+    }
+    .graficaMuestraContenedor img{
+        width: 300px;
+    }
+    .graficaColoresTxt{
+        width: 300px;
+    }
+    .muestrarioVinilo img{
+        width: 300px;
+    }
+}
