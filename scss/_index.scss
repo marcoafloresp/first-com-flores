@@ -1,5 +1,16 @@
-$text-font:'Roboto Condensed', sans-serif;
-$text-col:#696969;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav-item{
+  a{
+    color:rgb(124, 124, 124);
+    &:hover{
+      color: #363636;
+    }
+  }
+}
 .imgInicio{
     margin-top: -20px;
   }
