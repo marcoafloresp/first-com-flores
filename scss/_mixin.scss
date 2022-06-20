@@ -1,0 +1,47 @@
+@mixin cajaSerigrafiaTxt($bg, $color){
+    background-color: $bg;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0;
+    h5{
+      color: $color;
+    }
+    p{
+      color: $color;
+      font-size: 15px;
+    }
+}
+@mixin parrafos-textos{
+    width: 80%;
+      height: auto;
+      margin-top: 5px;
+      text-align: center;
+      align-content: center;
+      font-family: $text-font;
+      line-height: 1.5rem;
+      color: $text-col;
+      font-size: 15px;
+}
+@mixin parrafos-textosFondo {
+    width: 80%;
+    height: auto;
+        color: $text-col;
+        background-color: rgb(226, 207, 207);
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 16px;
+        font-weight: 200;
+        margin-top: 20px;
+        font-family: $text-font;
+}
+@mixin specialTxt {
+    width: 80%;
+    height: auto;
+        color: $text-col;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 16px;
+        font-weight: 200;
+        font-family: $text-font;
+}

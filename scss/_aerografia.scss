@@ -1,36 +1,23 @@
 
 .aeroGaleriaContenedorA{
+    margin-top: 20px;
     grid-area: aeroGaleriaContenedorA;
     .aeroGaleriaTxt{
-      margin-top: 2.5rem;
-      background-color: black;
-      color:rgb(182, 182, 182);
-      padding: 5px 5px;
-      text-align: center;
-      font-family: 'Roboto Condensed', sans-serif;
-    }
-  }
-  .aeroProgresoContenedorTxt{
-    grid-area: aeroProgresoContenedorTxt;
+      @extend .encabezadoSer;
+      margin-top: 20px;}
   }
   .infoAero{
     grid-area: infoAero;
-  }
-  .aeroProgresoContenedorTxt{
-    grid-area: aeroProgresoContenedorTxt;
-  }
-  .infoAero{
     display: flex;
     justify-content: center;
     .infoAero-int{
-      width: 800px;
-      height: auto;
-      margin-top: 20px;
-      text-align: center;
-      align-content: center;
-      font-family: $text-font;
-      line-height: 1.5rem;
-      color: $text-col;
+    @include parrafos-textos;}
+  }
+  .infoAeroB{
+    display: flex;
+    justify-content: center;
+    .infoAeroB-int{
+    @include parrafos-textosFondo;
     }
   }
   .aeroGaleriaContenedor{
@@ -38,13 +25,11 @@
     background-color: rgb(182, 182, 182);
   }
   .aeroProgresoContenedorTxt{
+    margin-top: 20px;
+    grid-area: aeroProgresoContenedorTxt;
     .aeroProgesoTxt{
-      margin-top: 3rem;
-      background-color: black;
-      color:rgb(182, 182, 182);
-      padding: 5px 5px;
-      text-align: center;
-      font-family: $text-font;
+      @extend .encabezadoSer;
+      margin-top: 20px;
     }
   }
   .aeroProgresoContenedor{

@@ -61,9 +61,10 @@
 .contenedorMainContact{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 8fr;
+    grid-template-rows: 9fr;
     grid-template-areas: 
     "header"
+    "encabezadoContacto"
     "ubicacionMapa"
     "contactoFormText"
     "formContenedor"

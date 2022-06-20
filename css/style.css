@@ -2,9 +2,6 @@
 html {
   height: 100%; }
 
-h4 {
-  color: red; }
-
 body {
   margin: 0; }
 
@@ -437,10 +434,273 @@ body {
 .contenedorMainContact {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 8fr;
-  grid-template-areas: "header" "ubicacionMapa" "contactoFormText" "formContenedor" "contactoForm3" "botonEnvio" "footer" "textofooter"; }
+  grid-template-rows: 9fr;
+  grid-template-areas: "header" "encabezadoContacto" "ubicacionMapa" "contactoFormText" "formContenedor" "contactoForm3" "botonEnvio" "footer" "textofooter"; }
 
 /* FIN CONTENEDORES GRID */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.nav-item a {
+  color: #7c7c7c; }
+  .nav-item a:hover {
+    color: #363636; }
+
+.imgInicio {
+  margin-top: -20px; }
+
+.sectionAside {
+  text-align: center;
+  grid-area: sectionAside;
+  margin-top: 20px; }
+  .sectionAside .aside1 {
+    width: 80%;
+    margin: 0 auto; }
+    .sectionAside .aside1 p {
+      width: 80%;
+      height: auto;
+      color: #514f4f;
+      margin: 0 auto;
+      padding: 5px;
+      font-size: 16px;
+      font-weight: 200;
+      font-family: "Roboto Condensed", sans-serif; }
+  .sectionAside .aside2 p {
+    width: 80%;
+    height: auto;
+    color: #514f4f;
+    background-color: #e2cfcf;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 20px;
+    font-family: "Roboto Condensed", sans-serif; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  grid-area: footer; }
+  .footer .footericonos {
+    width: auto;
+    height: auto;
+    border: 1px solid rgba(30, 102, 136, 0.355);
+    padding: 5px;
+    border-radius: 10px; }
+    .footer .footericonos img {
+      width: 35px;
+      height: auto;
+      margin: 4px 10px 0px 10px; }
+
+.textofooter {
+  background-color: #d7d7d7;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #616161;
+  grid-area: textofooter; }
+
+.btnFace:hover {
+  opacity: 70%; }
+
+.btnInsta:hover {
+  opacity: 70%; }
+
+.btnLink:hover {
+  opacity: 70%; }
+
+.btnTweet:hover {
+  opacity: 70%; }
+
+.aeroGaleriaContenedorA {
+  margin-top: 20px;
+  grid-area: aeroGaleriaContenedorA; }
+  .aeroGaleriaContenedorA .aeroGaleriaTxt {
+    margin-top: 20px; }
+
+.infoAero {
+  grid-area: infoAero;
+  display: flex;
+  justify-content: center; }
+  .infoAero .infoAero-int {
+    width: 80%;
+    height: auto;
+    margin-top: 5px;
+    text-align: center;
+    align-content: center;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 1.5rem;
+    color: #514f4f;
+    font-size: 15px; }
+
+.infoAeroB {
+  display: flex;
+  justify-content: center; }
+  .infoAeroB .infoAeroB-int {
+    width: 80%;
+    height: auto;
+    color: #514f4f;
+    background-color: #e2cfcf;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 20px;
+    font-family: "Roboto Condensed", sans-serif; }
+
+.aeroGaleriaContenedor {
+  text-align: center;
+  background-color: #b6b6b6; }
+
+.aeroProgresoContenedorTxt {
+  margin-top: 20px;
+  grid-area: aeroProgresoContenedorTxt; }
+  .aeroProgresoContenedorTxt .aeroProgesoTxt {
+    margin-top: 20px; }
+
+.aeroProgresoContenedor {
+  text-align: center;
+  background-color: #b6b6b6; }
+
+.encabezadoSer, .aeroGaleriaContenedorA .aeroGaleriaTxt, .aeroProgresoContenedorTxt .aeroProgesoTxt, .infoSerigrafia .cajaSer1, .infoSerigrafia .cajaSer2, .infoSerigrafia .cajaSer3, .infoSerigrafia .cajaSer4, .encabezadoSer2, .sectionAside .aside1 .encabezado, .encabezadoSer3, .graficaColoresTxt, .encabezadoContacto, .contactoFormText {
+  background-color: gainsboro;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+  color: #514f4f;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center; }
+
+.infoSerigrafia {
+  padding: 2rem;
+  align-content: space-between;
+  /*   margin: 0 auto; */
+  margin-top: -20px; }
+  .infoSerigrafia .cajaSer1 {
+    background-color: #748ca1;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0; }
+    .infoSerigrafia .cajaSer1 h5 {
+      color: white; }
+    .infoSerigrafia .cajaSer1 p {
+      color: white;
+      font-size: 15px; }
+  .infoSerigrafia .cajaSer2 {
+    background-color: #8abfdd;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0; }
+    .infoSerigrafia .cajaSer2 h5 {
+      color: white; }
+    .infoSerigrafia .cajaSer2 p {
+      color: white;
+      font-size: 15px; }
+  .infoSerigrafia .cajaSer3 {
+    background-color: #b4b1d3;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0; }
+    .infoSerigrafia .cajaSer3 h5 {
+      color: white; }
+    .infoSerigrafia .cajaSer3 p {
+      color: white;
+      font-size: 15px; }
+  .infoSerigrafia .cajaSer4 {
+    background-color: #b08a7c;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0; }
+    .infoSerigrafia .cajaSer4 h5 {
+      color: white; }
+    .infoSerigrafia .cajaSer4 p {
+      color: white;
+      font-size: 15px; }
+
+.fila2Texto {
+  /*  background-color: rgba(0, 0, 0, 0.2); */
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.5rem;
+  color: #514f4f;
+  font-size: 15px;
+  align-content: center;
+  grid-area: fila2Texto; }
+
+.encabezadoSer2, .sectionAside .aside1 .encabezado {
+  margin-top: 20px; }
+
+.fila3Texto {
+  margin-top: 0.5rem;
+  font-family: "Roboto Condensed", sans-serif; }
+  .fila3Texto ul {
+    margin: 10px;
+    padding: 0px; }
+    .fila3Texto ul li {
+      font-size: 15px;
+      list-style-type: none; }
+
+.encabezadoSer3 {
+  margin-top: 20px; }
+
+.graficaMuestraContenedor {
+  text-align: center;
+  grid-area: graficaMuestraContenedor; }
+
+.graficaGaleriaTxt {
+  width: 80%;
+  height: auto;
+  color: #514f4f;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.graficaColoresTxt {
+  margin-top: 20px; }
+
+.muestrarioVinilo {
+  text-align: center;
+  background-color: #b6b6b6;
+  grid-area: muestrarioVinilo; }
+  .muestrarioVinilo img {
+    width: 90%; }
+
+.encabezadoContacto, .contactoFormText {
+  grid-area: encabezadoContacto; }
+
+.ubicacionMapa {
+  margin-top: 20px;
+  background-color: rgba(172, 202, 170, 0.8);
+  padding: 0.5rem;
+  /* filter: grayscale(100%); */
+  grid-area: ubicacionMapa; }
+
+.contactoFormText {
+  margin-top: 20px;
+  grid-area: contactoFormText; }
+
+.formContenedor {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  grid-area: formContenedor; }
+
+.contactoForm3 {
+  margin-top: 0.8rem;
+  text-align: center;
+  grid-area: contactoForm3; }
+
+.botonEnvio {
+  text-align: center;
+  grid-area: botonEnvio; }
+
 @media (max-width: 320px) {
   body {
     background-image: linear-gradient(to bottom, #c7c7c7, #b9bbbc, #aaafaf, #9da3a0, #949690); }
@@ -527,204 +787,8 @@ body {
     grid-template-rows: 7fr;
     grid-template-areas: "header" "graficaMuestraContenedor" "graficaGaleriaTxt" "graficaColoresTxt" "muestrarioVinilo" "footer" "textofooter"; }
   .graficaMuestraContenedor img {
-    width: 300px; }
+    width: 100%; }
   .graficaColoresTxt {
     width: 300px; }
   .muestrarioVinilo img {
     width: 300px; } }
-
-.imgInicio {
-  margin-top: -20px; }
-
-.sectionAside {
-  text-align: center;
-  grid-area: sectionAside; }
-  .sectionAside .aside1 {
-    width: 80%;
-    color: #616161;
-    margin: 0 auto;
-    margin-top: 20px; }
-    .sectionAside .aside1 h4 {
-      border-bottom: 1px solid gray;
-      font-size: 20px;
-      font-family: "Roboto Condensed", sans-serif; }
-    .sectionAside .aside1 p {
-      font-size: 14px;
-      font-family: "Roboto Condensed", sans-serif; }
-  .sectionAside .aside2 p {
-    width: 80%;
-    color: #696969;
-    background-color: #eabcbc;
-    margin: 0 auto;
-    padding: 20px;
-    font-size: 14px;
-    font-weight: 200;
-    margin-top: 20px;
-    font-family: "Roboto Condensed", sans-serif; }
-
-.aeroGaleriaContenedorA {
-  grid-area: aeroGaleriaContenedorA; }
-  .aeroGaleriaContenedorA .aeroGaleriaTxt {
-    margin-top: 2.5rem;
-    background-color: black;
-    color: #b6b6b6;
-    padding: 5px 5px;
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif; }
-
-.aeroProgresoContenedorTxt {
-  grid-area: aeroProgresoContenedorTxt; }
-
-.infoAero {
-  grid-area: infoAero; }
-
-.aeroProgresoContenedorTxt {
-  grid-area: aeroProgresoContenedorTxt; }
-
-.infoAero {
-  display: flex;
-  justify-content: center; }
-  .infoAero .infoAero-int {
-    width: 800px;
-    height: auto;
-    margin-top: 20px;
-    text-align: center;
-    align-content: center;
-    font-family: "Roboto Condensed", sans-serif;
-    line-height: 1.5rem;
-    color: #696969; }
-
-.aeroGaleriaContenedor {
-  text-align: center;
-  background-color: #b6b6b6; }
-
-.aeroProgresoContenedorTxt .aeroProgesoTxt {
-  margin-top: 3rem;
-  background-color: black;
-  color: #b6b6b6;
-  padding: 5px 5px;
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif; }
-
-.aeroProgresoContenedor {
-  text-align: center;
-  background-color: #b6b6b6; }
-
-.fila2Texto {
-  background-color: rgba(0, 0, 0, 0.2);
-  font-family: "Roboto Condensed", sans-serif;
-  line-height: 1.5rem;
-  color: #696969;
-  align-content: center;
-  grid-area: fila2Texto; }
-
-.fila3Texto {
-  margin-top: 0.5rem;
-  font-family: "Roboto Condensed", sans-serif; }
-  .fila3Texto ul {
-    margin: 10px;
-    padding: 0px; }
-    .fila3Texto ul li {
-      list-style-type: none; }
-
-.graficaMuestraContenedor {
-  text-align: center;
-  grid-area: graficaMuestraContenedor; }
-
-.graficaGaleriaTxt {
-  margin-top: 20px;
-  text-align: center;
-  align-content: center;
-  font-family: "Roboto Condensed", sans-serif;
-  line-height: 1.5rem;
-  color: #696969;
-  grid-area: graficaGaleriaTxt; }
-
-.graficaColoresTxt {
-  margin-top: 2.5rem;
-  background-color: black;
-  color: #b6b6b6;
-  padding: 5px 5px;
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-  grid-area: graficaColoresTxt; }
-
-.muestrarioVinilo {
-  text-align: center;
-  background-color: #b6b6b6;
-  grid-area: muestrarioVinilo; }
-  .muestrarioVinilo img {
-    width: 100%; }
-
-.ubicacionMapa {
-  background-color: rgba(172, 202, 170, 0.8);
-  padding: 0.5rem;
-  /* filter: grayscale(100%); */
-  grid-area: ubicacionMapa; }
-
-.contactoFormText {
-  text-align: center;
-  margin-top: 2rem;
-  grid-area: contactoFormText; }
-
-.formContenedor {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-  grid-area: formContenedor; }
-
-.contactoForm3 {
-  margin-top: 0.8rem;
-  text-align: center;
-  grid-area: contactoForm3; }
-
-.botonEnvio {
-  text-align: center;
-  grid-area: botonEnvio; }
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box; }
-
-.nav-item a {
-  color: #7c7c7c; }
-  .nav-item a:hover {
-    color: #363636; }
-
-/* ------- footer general ------- */
-.footer {
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
-  grid-area: footer; }
-  .footer .footericonos {
-    width: auto;
-    height: auto;
-    border: 1px solid rgba(30, 102, 136, 0.355);
-    padding: 5px;
-    border-radius: 10px; }
-    .footer .footericonos img {
-      width: 35px;
-      height: auto;
-      margin: 4px 10px 0px 10px; }
-
-.textofooter {
-  background-color: #d7d7d7;
-  margin-top: 20px;
-  text-align: center;
-  font-size: 13px;
-  color: #616161;
-  grid-area: textofooter; }
-
-.btnFace:hover {
-  opacity: 70%; }
-
-.btnInsta:hover {
-  opacity: 70%; }
-
-.btnLink:hover {
-  opacity: 70%; }
-
-.btnTweet:hover {
-  opacity: 70%; }

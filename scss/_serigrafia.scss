@@ -1,12 +1,47 @@
 
+.encabezadoSer{
+  background-color: rgb(220, 220, 220);
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+  color: $text-col;
+  font-family: $text-font;
+  text-align: center;
+}
+.infoSerigrafia{
+  padding: 2rem;
+  align-content: space-between;
+/*   margin: 0 auto; */
+  margin-top: -20px;
+  .cajaSer1{
+    @include cajaSerigrafiaTxt($color-denim, $color-blanco);
+    @extend .encabezadoSer;
+  }
+  .cajaSer2{
+    @include cajaSerigrafiaTxt($color-LanguidBlue, $color-blanco);
+    @extend .encabezadoSer;
+  }
+  .cajaSer3{
+    @include cajaSerigrafiaTxt($color-lavanda, $color-blanco);
+    @extend .encabezadoSer;
+  }
+  .cajaSer4{
+    @include cajaSerigrafiaTxt($color-VirtualTaupe, $color-blanco);
+    @extend .encabezadoSer;
+  }
+}
 .fila2Texto{
-    background-color: rgba(0, 0, 0, 0.2);
+   /*  background-color: rgba(0, 0, 0, 0.2); */
     font-family: $text-font;
     line-height: 1.5rem;
     color: $text-col;
+    font-size: 15px;
     align-content: center;
     grid-area: fila2Texto;
   }
+.encabezadoSer2{
+  @extend .encabezadoSer;
+  margin-top: 20px;
+}
   .fila3Texto{
     margin-top: 0.5rem;
     font-family: $text-font;
@@ -14,7 +49,12 @@
       margin: 10px;
       padding: 0px;
       li{
+        font-size: 15px;
         list-style-type: none;
       }
     }
+  }
+  .encabezadoSer3{
+    @extend .encabezadoSer;
+    margin-top: 20px;
   }

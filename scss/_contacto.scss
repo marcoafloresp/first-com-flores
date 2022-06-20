@@ -1,13 +1,17 @@
-
+.encabezadoContacto{
+  @extend .encabezadoSer;
+  grid-area: encabezadoContacto;
+}
 .ubicacionMapa{
+    margin-top: 20px;
     background-color: rgba(172, 202, 170, 0.8);
     padding: 0.5rem;
     /* filter: grayscale(100%); */
     grid-area: ubicacionMapa;
   }
   .contactoFormText{
-    text-align: center;
-    margin-top: 2rem;
+    @extend .encabezadoContacto;
+    margin-top: 20px;
     grid-area: contactoFormText;
   }
   .formContenedor{
