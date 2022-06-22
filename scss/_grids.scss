@@ -48,9 +48,10 @@
 .contenedorMainGraf{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 7fr;
+    grid-template-rows: 8fr;
     grid-template-areas: 
     "header"
+    "encabezadoGraf"
     "graficaMuestraContenedor"
     "graficaGaleriaTxt"
     "graficaColoresTxt"

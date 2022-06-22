@@ -428,8 +428,8 @@ body {
 .contenedorMainGraf {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 7fr;
-  grid-template-areas: "header" "graficaMuestraContenedor" "graficaGaleriaTxt" "graficaColoresTxt" "muestrarioVinilo" "footer" "textofooter"; }
+  grid-template-rows: 8fr;
+  grid-template-areas: "header" "encabezadoGraf" "graficaMuestraContenedor" "graficaGaleriaTxt" "graficaColoresTxt" "muestrarioVinilo" "footer" "textofooter"; }
 
 .contenedorMainContact {
   display: grid;
@@ -565,7 +565,7 @@ body {
   text-align: center;
   background-color: #b6b6b6; }
 
-.encabezadoSer, .aeroGaleriaContenedorA .aeroGaleriaTxt, .aeroProgresoContenedorTxt .aeroProgesoTxt, .infoSerigrafia .cajaSer1, .infoSerigrafia .cajaSer2, .infoSerigrafia .cajaSer3, .infoSerigrafia .cajaSer4, .encabezadoSer2, .sectionAside .aside1 .encabezado, .encabezadoSer3, .graficaColoresTxt, .encabezadoContacto, .contactoFormText {
+.encabezadoSer, .aeroGaleriaContenedorA .aeroGaleriaTxt, .aeroProgresoContenedorTxt .aeroProgesoTxt, .infoSerigrafia .cajaSer1, .infoSerigrafia .cajaSer2, .infoSerigrafia .cajaSer3, .infoSerigrafia .cajaSer4, .encabezadoSer2, .sectionAside .aside1 .encabezado, .encabezadoSer3, .graficaColoresTxt, .encabezadoGraf, .encabezadoContacto, .contactoFormText {
   background-color: gainsboro;
   border-bottom: 1px solid gray;
   font-size: 20px;
@@ -574,9 +574,8 @@ body {
   text-align: center; }
 
 .infoSerigrafia {
-  padding: 2rem;
+  padding: 1.5rem;
   align-content: space-between;
-  /*   margin: 0 auto; */
   margin-top: -20px; }
   .infoSerigrafia .cajaSer1 {
     background-color: #748ca1;
@@ -624,12 +623,10 @@ body {
       font-size: 15px; }
 
 .fila2Texto {
-  /*  background-color: rgba(0, 0, 0, 0.2); */
   font-family: "Roboto Condensed", sans-serif;
   line-height: 1.5rem;
   color: #514f4f;
   font-size: 15px;
-  align-content: center;
   grid-area: fila2Texto; }
 
 .encabezadoSer2, .sectionAside .aside1 .encabezado {
@@ -650,9 +647,11 @@ body {
 
 .graficaMuestraContenedor {
   text-align: center;
+  margin-top: 10px;
   grid-area: graficaMuestraContenedor; }
 
 .graficaGaleriaTxt {
+  text-align: center;
   width: 80%;
   height: auto;
   color: #514f4f;
@@ -671,6 +670,9 @@ body {
   grid-area: muestrarioVinilo; }
   .muestrarioVinilo img {
     width: 90%; }
+
+.encabezadoGraf {
+  grid-area: encabezadoGraf; }
 
 .encabezadoContacto, .contactoFormText {
   grid-area: encabezadoContacto; }
@@ -784,8 +786,8 @@ body {
   .contenedorMainGraf {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 7fr;
-    grid-template-areas: "header" "graficaMuestraContenedor" "graficaGaleriaTxt" "graficaColoresTxt" "muestrarioVinilo" "footer" "textofooter"; }
+    grid-template-rows: 8fr;
+    grid-template-areas: "header" "encabezadoGraf" "graficaMuestraContenedor" "graficaGaleriaTxt" "graficaColoresTxt" "muestrarioVinilo" "footer" "textofooter"; }
   .graficaMuestraContenedor img {
     width: 100%; }
   .graficaColoresTxt {

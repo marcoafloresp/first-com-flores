@@ -1,9 +1,11 @@
 
 .graficaMuestraContenedor{
     text-align: center;
+    margin-top: 10px;
     grid-area: graficaMuestraContenedor;
   }
   .graficaGaleriaTxt{
+    text-align: center;
     @include specialTxt;
   }
   .graficaColoresTxt{
@@ -17,4 +19,8 @@
     img{
       width: 90%;
     }
+  }
+  .encabezadoGraf{
+    @extend .encabezadoSer;
+    grid-area: encabezadoGraf;
   }

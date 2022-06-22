@@ -8,9 +8,8 @@
   text-align: center;
 }
 .infoSerigrafia{
-  padding: 2rem;
+  padding: 1.5rem;
   align-content: space-between;
-/*   margin: 0 auto; */
   margin-top: -20px;
   .cajaSer1{
     @include cajaSerigrafiaTxt($color-denim, $color-blanco);
@@ -30,12 +29,10 @@
   }
 }
 .fila2Texto{
-   /*  background-color: rgba(0, 0, 0, 0.2); */
     font-family: $text-font;
     line-height: 1.5rem;
     color: $text-col;
     font-size: 15px;
-    align-content: center;
     grid-area: fila2Texto;
   }
 .encabezadoSer2{
