@@ -1,7 +1,7 @@
 @media (max-width: 320px){   
     body{
-        background-image: linear-gradient(to bottom, #c7c7c7, #b9bbbc, #aaafaf, #9da3a0, #949690);
-    }
+        overflow-x: hidden;
+      }
     .header{
         display: grid;
         grid-template-columns: 1fr;
@@ -31,6 +31,9 @@
         margin-top: 30px;
     }
     /* ----------media aerografia------------ */
+    body{
+        overflow-x: hidden;
+      }
     .contenedorMainAero{
         display: grid;
         grid-template-columns: 1fr;
@@ -51,21 +54,21 @@
         display: none;
     }
     .infoAero{
-        width: 320px;
+        width: 90%;
         height: auto;
         margin: 0 auto;
         grid-area: infoAero;
     }
     .aeroGaleriaContenedorA{
         grid-area: aeroGaleriaContenedorA;
-        width: 300px;
+        width: 90%;
     }
     .aeroGaleriaContenedor img{
-        width: 300px;
+        width: 90%;
         height: auto;
     }
     .aeroGaleriaTxt{
-        width: 100%;
+        width: 90%;
         align-items: center;
         margin-left: 0px;
     }
@@ -74,6 +77,9 @@
         grid-area: aeroProgresoContenedorTxt;
     }
 /*     -----------media serigrafia------------*/
+    body{
+        overflow-x: hidden;
+    }
     .fila1{
         display: grid;
         grid-template-columns: 1fr;
@@ -83,12 +89,12 @@
         "fila1Img" "fila1Texto";
     }
     .fila1Texto p{
-        width: 100%;
+        width: 90%;
         height: auto;
         text-align: center;
     }
     .fila1Img img{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     .fila2{
@@ -109,6 +115,9 @@
         text-align: center;
     }
     /* ------ media grafica ------- */
+    body{
+        overflow-x: hidden;
+      }
     .contenedorMainGraf{
         display: grid;
         grid-template-columns: 1fr;
@@ -124,12 +133,12 @@
         "textofooter";
     }
     .graficaMuestraContenedor img{
-        width: 100%;
+        width: 90%;
     }
     .graficaColoresTxt{
-        width: 300px;
+        width: 90%;
     }
     .muestrarioVinilo img{
-        width: 300px;
+        width: 90%;
     }
 }

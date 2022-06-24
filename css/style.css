@@ -463,6 +463,10 @@ body {
   padding: 0px;
   box-sizing: border-box; }
 
+.contenedorFondo {
+  width: 100%;
+  height: auto; }
+
 .nav-item a {
   color: #7c7c7c; }
   .nav-item a:hover {
@@ -535,6 +539,18 @@ body {
 .btnTweet:hover {
   opacity: 70%; }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  overflow-x: hidden; }
+
+.contenedorFondoAero {
+  width: 100%;
+  height: auto; }
+
 .aeroGaleriaContenedorA {
   margin-top: 20px;
   grid-area: aeroGaleriaContenedorA; }
@@ -584,6 +600,18 @@ body {
 .aeroProgresoContenedor {
   text-align: center;
   background-color: #b6b6b6; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  overflow-x: hidden; }
+
+.contenedorFondoAero {
+  width: 100%;
+  height: auto; }
 
 .encabezadoSer, .aeroGaleriaContenedorA .aeroGaleriaTxt, .aeroProgresoContenedorTxt .aeroProgesoTxt, .infoSerigrafia .cajaSer1, .infoSerigrafia .cajaSer2, .infoSerigrafia .cajaSer3, .infoSerigrafia .cajaSer4, .encabezadoSer2, .sectionAside .aside1 .encabezado, .encabezadoSer3, .graficaColoresTxt, .encabezadoGraf, .encabezadoContacto, .contactoFormText {
   background-color: gainsboro;
@@ -665,6 +693,18 @@ body {
 .encabezadoSer3 {
   margin-top: 20px; }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  overflow-x: hidden; }
+
+.contenedorFondoGraf {
+  width: 100%;
+  height: auto; }
+
 .graficaMuestraContenedor {
   text-align: center;
   margin-top: 10px;
@@ -693,6 +733,11 @@ body {
 
 .encabezadoGraf {
   grid-area: encabezadoGraf; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
 
 .encabezadoContacto, .contactoFormText {
   grid-area: encabezadoContacto; }
@@ -726,7 +771,7 @@ body {
 
 @media (max-width: 320px) {
   body {
-    background-image: linear-gradient(to bottom, #c7c7c7, #b9bbbc, #aaafaf, #9da3a0, #949690); }
+    overflow-x: hidden; }
   .header {
     display: grid;
     grid-template-columns: 1fr;
@@ -749,6 +794,8 @@ body {
   .imgInicio {
     margin-top: 30px; }
   /* ----------media aerografia------------ */
+  body {
+    overflow-x: hidden; }
   .contenedorMainAero {
     display: grid;
     grid-template-columns: 1fr;
@@ -759,24 +806,26 @@ body {
   .cajaEins img {
     display: none; }
   .infoAero {
-    width: 320px;
+    width: 90%;
     height: auto;
     margin: 0 auto;
     grid-area: infoAero; }
   .aeroGaleriaContenedorA {
     grid-area: aeroGaleriaContenedorA;
-    width: 300px; }
+    width: 90%; }
   .aeroGaleriaContenedor img {
-    width: 300px;
+    width: 90%;
     height: auto; }
   .aeroGaleriaTxt {
-    width: 100%;
+    width: 90%;
     align-items: center;
     margin-left: 0px; }
   .aeroProgresoContenedorTxt {
     display: none;
     grid-area: aeroProgresoContenedorTxt; }
   /*     -----------media serigrafia------------*/
+  body {
+    overflow-x: hidden; }
   .fila1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -784,11 +833,11 @@ body {
     margin-top: 0px;
     grid-template-areas: "fila1Img" "fila1Texto"; }
   .fila1Texto p {
-    width: 100%;
+    width: 90%;
     height: auto;
     text-align: center; }
   .fila1Img img {
-    width: 100%;
+    width: 90%;
     height: auto; }
   .fila2 {
     display: grid;
@@ -804,14 +853,16 @@ body {
   .rowImagenes {
     text-align: center; }
   /* ------ media grafica ------- */
+  body {
+    overflow-x: hidden; }
   .contenedorMainGraf {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 8fr;
     grid-template-areas: "header" "encabezadoGraf" "graficaMuestraContenedor" "graficaGaleriaTxt" "graficaColoresTxt" "muestrarioVinilo" "footer" "textofooter"; }
   .graficaMuestraContenedor img {
-    width: 100%; }
+    width: 90%; }
   .graficaColoresTxt {
-    width: 300px; }
+    width: 90%; }
   .muestrarioVinilo img {
-    width: 300px; } }
+    width: 90%; } }

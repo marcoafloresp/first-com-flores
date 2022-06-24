@@ -1,4 +1,15 @@
-
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.contenedorFondoGraf{
+  width: 100%;
+  height: auto;
+}
 .graficaMuestraContenedor{
     text-align: center;
     margin-top: 10px;

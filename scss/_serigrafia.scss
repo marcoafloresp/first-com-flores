@@ -1,4 +1,15 @@
-
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.contenedorFondoAero{
+  width: 100%;
+  height: auto;
+}
 .encabezadoSer{
   background-color: rgb(220, 220, 220);
   border-bottom: 1px solid gray;
