@@ -63,41 +63,75 @@
             <div>// COMUNICATE CON NOSOTROS //</div>
         </div>
         <div class="formContenedor">
-            <div class="contactoForm1">
-                <form>
-                    <input type="text" size="17" name="name"/><br>
-                    <label for="name">Nombre</label>
-                    <br><br>
-                    <input type="email" size="17" name="Email"/><br>
-                    <label for="mail">Correo</label>
-                </form>
+            <form class="row g-3 formContenedor2">
+                <div class="col-md-6">
+                  <label for="inputName" class="form-label">Nombre y Apellido</label>
+                  <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Direccion</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Avenida, Calle.">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Direccion 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Piso, Departamento.">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Provincia</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Seleccione...</option>
+                    <option>Buenos Aires</option>
+                    <option>Ciudad Autónoma de Buenos Aires</option>
+                    <option>Catamarca</option>
+                    <option>Chaco</option>
+                    <option>Chubut</option>
+                    <option>Córdoba</option>
+                    <option>Corrientes</option>
+                    <option>Entre Ríos</option>
+                    <option>Formosa</option>
+                    <option>Jujuy</option>
+                    <option>La Pampa</option>
+                    <option>La Rioja</option>
+                    <option>Mendoza</option>
+                    <option>Misiones</option>
+                    <option>Neuquén</option>
+                    <option>Río Negro</option>
+                    <option>Salta</option>
+                    <option>San Juan</option>
+                    <option>San Luis</option>
+                    <option>Santa Cruz</option>
+                    <option>Santa Fe</option>
+                    <option>Santiago del Estero</option>
+                    <option>Tierra del Fuego</option>
+                    <option>Tucumán</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Código Postal</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
             </div>
-            <div class="contactoForm2">
-                <form>
-                    <input type="text" size="17" name="apellido"/><br>
-                    <label for="apellido">Apellido</label>
-                    <br><br>
-                    <input type="text" size="17" name="pais"/><br>
-                    <label for="pais">Pais</label>
-                </form>
-            </div>
-        </div>
-        <div class="contactoForm3">
-            <form>
-                <label for="consulta">Tu consulta:</label><br>
-                <input type="text" size="35" name="consulta"/>
-            </form>
-        </div>
-        <div class="botonEnvio">
-            <input type="submit" value="Enviar"/>
+        
         </div>
 <!--seccion pie pagina general-->
         <div class="footer">
             <div class="footericonos">
-                <a href="https://es-la.facebook.com"><img class="btnFace" src="../img/icofacebook.png" alt="logo facebook"></a>
-                <a href="https://www.instagram.com"><img class="btnInsta" src="../img/icoinstagram.png" alt="logo instagram"></a>
-                <a href="https://ar.linkedin.com/"><img class="btnLink" src="../img/icolinkedin.png" alt="logo linkedin"></a>
-                <a href="https://twitter.com/?lang=es"><img class="btnTweet" src="../img/icotweet.png" alt="logo tweeter"></a>
+                <a href="https://es-la.facebook.com" target="_blank"><img class="btnFace" src="../img/icofacebook.png" alt="logo facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="btnInsta" src="../img/icoinstagram.png" alt="logo instagram"></a>
+                <a href="https://ar.linkedin.com/" target="_blank"><img class="btnLink" src="../img/icolinkedin.png" alt="logo linkedin"></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><img class="btnTweet" src="../img/icotweet.png" alt="logo tweeter"></a>
             </div>
         </div>
         <div class="textofooter"> 
